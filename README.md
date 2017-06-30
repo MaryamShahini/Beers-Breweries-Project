@@ -1,6 +1,8 @@
 # Beers-Breweries-Project
-MSDS 6306: Introduction to Data Science (405)
-Case Study 01
+## MSDS 6306: Introduction to Data Science (405)
+
+# Case Study 01
+
 Due: July 02, 2017 (Sunday)
 Submit the link to the le in GitHub via the space provided for in the Case Study
 01 page in 2DS.
@@ -20,7 +22,9 @@ Brew ID: Unique identier of the brewery.
 Name: Name of the brewery.
 City: City where the brewery is located.
 State: State where the brewery is located.
-Questions
+
+# Questions
+
 1. How many breweries are present in each state?
 2. Merge beer data with breweries data by brewery id. Print rst 6 observations and the
 last six observations to check the merged le.
@@ -34,7 +38,9 @@ a scatter plot.
 1
 You can use ggplot2 library for graphs. Please ignore missing values in your analysis.
 Comment on your analysis.
-Instructions
+
+# Instructions
+
 Deliverable: Markdown le uploaded to GitHub containing the following
 a. Introduction to the project. The introduction should not start with For my project I .
 b. The introduction needs to be written as if you are presenting the work to someone who
