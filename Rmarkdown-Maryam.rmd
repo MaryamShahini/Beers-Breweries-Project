@@ -1,0 +1,53 @@
+```{r}
+
+```
+
+```{r Maryam}
+#question #1
+log(1000)
+log10(1000)
+log(-1000)
+sqrt(1000)
+
+#question #2
+Vector <- c(10,25,3,11,5,9,13,21,4,11,15,18,3,14,19)
+mean(Vector)
+sd(Vector)
+
+x<-rnorm (15)
+x
+mean(x)
+sd(x)
+
+y<-rnorm (15 , mean=10 , sd=2)
+y
+mean(y)
+sd(y)
+
+#question #3
+Weight<- c(60,72,57,90,95,72)
+Weight
+height<-c(1.80,1.85,1.72,1.90,1.74,1.91)
+height
+plot(height, Weight, xlab="Height" , ylab="Weight")
+BMI<- Weight/height^2
+BMI
+m<-mean(Weight)
+m
+diff <-(Weight-m)
+diff
+
+sum(diff)
+
+sd(Weight)
+
+#question #4
+Category <- c("ComputerProgramming","Math","Statistics","MachineLearning","Domain","CommunicationandPresSkills","DataVisualization")
+Ranking<- c(3,5,3,3,2,5,5)
+Maryam=data.frame(Category , Ranking)
+summary(Maryam)
+Maryam
+barplot(Ranking, names.arg= Category , xlab="Categories" , ylab="Ranking" , col="Blue" , main="My Skils")
+
+```
+
