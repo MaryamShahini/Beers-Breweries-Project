@@ -111,7 +111,7 @@ Brew.per.State
 
 ```
 
-#2. Merge beer data with breweries data by brewery id:
+# 2. Merge beer data with breweries data by brewery id:
 
 Print frst 6 observations and the last six observations to check the merged file.
 
