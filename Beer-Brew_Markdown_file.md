@@ -1,12 +1,8 @@
 Introduction:
 =============
 
-Todays, due to variaty of beers and brew styles, beer selection is not
-simple any more. Craft beers have an enormous positive impact on the
-economy. the craft brewing industry in the U.S. created more than
-424,000 jobs and contributed $56 billion to the U.S. economy. In this
-research, answers of common questions regarding craft beers and
-breweries is shown.
+Todays, due to variaty of beers and brew styles, beer selection is not simple any more. Craft beers have an enormous positive impact on the economy. Craft brewing industry in the U.S. created more than 424,000 jobs and contributed $56 billion to the U.S. economy.
+In this research, there are answers to common questions regarding craft beers and breweries.
 
 Import .csv data sets:
 ======================
