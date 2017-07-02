@@ -111,7 +111,7 @@ Brew.per.State
 
 ```
 
-#2. Merge beer data with breweries data by brewery id:
+# 2. Merge beer data with breweries data by brewery id:
 
 Print frst 6 observations and the last six observations to check the merged file.
 
@@ -235,7 +235,7 @@ ggplot(data=New, aes(x=State, y=ABV.median, fill=State))+geom_bar(stat="identity
 ggplot(data=New, aes(x=State, y=IBU.median, fill=State))+geom_bar(stat="identity",position=position_dodge())+theme(axis.text.x=element_text(angle=90,vjust=0.5))
 ```
 
-# 5. Which state has the maximum alcoholic beer? Which state has the most bitter beer?
+# 5. States with maximum alcoholic beer and most bitter beer:
 
 BeerBrew data frame (the merge of Beers and Breweries data sets) is used to find states with maximum ABV and IBU, as BeerBrew includes all state column and IBU and ABV columns.
 CO has the maximum ABV of 0.128 and OR has the maximum IBU of 138.
@@ -245,7 +245,7 @@ BeerBrew[which.max(BeerBrew$ABV),]
 BeerBrew[which.max(BeerBrew$IBU),]
 ```
 
-# 6. Summary statistics for ABV (Alcohol by volume) variable.
+# 6. Summary statistics for ABV (Alcohol by volume) variable:
 
 Basic statistics of ABV variable is calculated from "ABVclean" table as the missing values of ABV is ignored in this table. 
 Minimum = 0.00100  /   1st Qu. = 0.05000  /  median = 0.05600  /  mean = 0.05977  /  3rd Qu. = 0.06700  and maximum = 0.128
@@ -254,7 +254,7 @@ Minimum = 0.00100  /   1st Qu. = 0.05000  /  median = 0.05600  /  mean = 0.05977
 summary(ABVclean$ABV)
 ```
 
-# 7. Relationship between the bitterness of the beer and its alcoholic content
+# 7. Relationship between the bitterness of the beer and its alcoholic content:
 
 By drawing a scatter plot of ABV versus IBU, it is obvious that there is a positive correlation between ABV and IBU. The fit line has a positive slope that indicates that with increasing ABV variable, IBU also increased. that meand beers with higher alcoholic content tend to have higher bitterness.
 
@@ -263,6 +263,8 @@ plot(x=Beers$ABV,y=Beers$IBU,main="Compare",xlab="ABV", ylab="IBU")
 abline(lm(Beers$IBU~Beers$ABV), col="red")
 ```
 
+# 8. Conclusion:
 
+This study is a reproducible research that answers some commeon questions by using craft beers and breweries information. 
 
 
